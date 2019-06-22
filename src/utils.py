@@ -39,5 +39,27 @@ def convert_xml_to_csv(path):
     xml_df = pd.DataFrame(xml_values, columns=column_name)
     classes_names = list(set(classes_names))
     classes_names.sort()
-    
+
     return xml_df, classes_names
+
+
+def create_classes_protobuf(classes_names):
+    """Create a protocol buffer file storing
+    the name of the classes. This is used by the
+    object detection API
+
+    Arguments:
+        classes_names = list, classes names
+    """
+
+    pbtxt_content = ""
+
+    for i, class_name in enumerate(classes_names):
+            pbtxt_content = (
+                pbtxt_content
+                + "item {{\n    id: {0}\n    name: '{1}'\n}}\n\n".format(
+                    i + 1, class_name
+                )
+            )
+
+    return pbtxt_content.strip()
