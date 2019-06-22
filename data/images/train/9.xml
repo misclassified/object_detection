@@ -1,7 +1,7 @@
 <annotation>
-	<folder>Train</folder>
-	<filename>9.jpg</filename>
-	<path>/Users/giovannibruner/Documents/Msc Data Science/Introduction to Machine Learning/Object Detection/Train/9.jpg</path>
+	<folder>train</folder>
+	<filename>9.png</filename>
+	<path>/Users/giovannibruner/Documents/Msc Data Science/Introduction to Machine Learning/Object Detection/object_detection/data/images/train/9.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>362</xmin>
-			<ymin>116</ymin>
-			<xmax>549</xmax>
-			<ymax>366</ymax>
+			<xmin>369</xmin>
+			<ymin>115</ymin>
+			<xmax>543</xmax>
+			<ymax>353</ymax>
 		</bndbox>
 	</object>
 </annotation>

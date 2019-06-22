@@ -1,7 +1,7 @@
 <annotation>
-	<folder>Train</folder>
-	<filename>16.jpg</filename>
-	<path>/Users/giovannibruner/Documents/Msc Data Science/Introduction to Machine Learning/Object Detection/Train/16.jpg</path>
+	<folder>train</folder>
+	<filename>16.png</filename>
+	<path>/Users/giovannibruner/Documents/Msc Data Science/Introduction to Machine Learning/Object Detection/object_detection/data/images/train/16.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>50</xmin>
-			<ymin>249</ymin>
-			<xmax>180</xmax>
-			<ymax>328</ymax>
+			<xmin>186</xmin>
+			<ymin>285</ymin>
+			<xmax>360</xmax>
+			<ymax>408</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,22 +29,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>177</xmin>
-			<ymin>286</ymin>
-			<xmax>356</xmax>
-			<ymax>404</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>f1_car</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>365</xmin>
-			<ymin>296</ymin>
-			<xmax>541</xmax>
+			<xmin>369</xmin>
+			<ymin>302</ymin>
+			<xmax>540</xmax>
 			<ymax>444</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>f1_car</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>51</xmin>
+			<ymin>251</ymin>
+			<xmax>181</xmax>
+			<ymax>331</ymax>
 		</bndbox>
 	</object>
 </annotation>
