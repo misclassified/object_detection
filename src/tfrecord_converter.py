@@ -8,7 +8,7 @@ import pandas as pd
 import tensorflow as tf
 import sys
 
-sys.path.append("../../../models/research")
+sys.path.append('/content/models/research/') # Warning , using absolute path to import tensorflow object detection
 
 from PIL import Image
 from object_detection.utils import dataset_util
